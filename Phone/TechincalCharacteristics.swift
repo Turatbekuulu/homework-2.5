@@ -1,0 +1,4 @@
+protocol TechincalCharacteristics {
+    
+    func showTechincalCharacteristics()
+}

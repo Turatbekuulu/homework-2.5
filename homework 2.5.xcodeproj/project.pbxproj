@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		048F36D52832546B007A5920 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36D42832546B007A5920 /* main.swift */; };
+		048F36DC283254A8007A5920 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36DB283254A8007A5920 /* Phone.swift */; };
+		048F36DE2832551B007A5920 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36DD2832551B007A5920 /* iPhone.swift */; };
+		048F36E028325536007A5920 /* Samsung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36DF28325536007A5920 /* Samsung.swift */; };
+		048F36E228325552007A5920 /* Huawei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36E128325552007A5920 /* Huawei.swift */; };
+		048F36E62832575D007A5920 /* TechincalCharacteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36E52832575D007A5920 /* TechincalCharacteristics.swift */; };
+		048F36E828325842007A5920 /* ExternalCharacteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36E728325842007A5920 /* ExternalCharacteristics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		048F36D12832546B007A5920 /* homework 2.5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "homework 2.5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F36D42832546B007A5920 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		048F36DB283254A8007A5920 /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		048F36DD2832551B007A5920 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		048F36DF28325536007A5920 /* Samsung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samsung.swift; sourceTree = "<group>"; };
+		048F36E128325552007A5920 /* Huawei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huawei.swift; sourceTree = "<group>"; };
+		048F36E52832575D007A5920 /* TechincalCharacteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechincalCharacteristics.swift; sourceTree = "<group>"; };
+		048F36E728325842007A5920 /* ExternalCharacteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalCharacteristics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +53,7 @@
 		048F36C82832546B007A5920 = {
 			isa = PBXGroup;
 			children = (
-				048F36D32832546B007A5920 /* homework 2.5 */,
+				048F36D32832546B007A5920 /* Phone */,
 				048F36D22832546B007A5920 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +66,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048F36D32832546B007A5920 /* homework 2.5 */ = {
+		048F36D32832546B007A5920 /* Phone */ = {
 			isa = PBXGroup;
 			children = (
 				048F36D42832546B007A5920 /* main.swift */,
+				048F36DB283254A8007A5920 /* Phone.swift */,
+				048F36DD2832551B007A5920 /* iPhone.swift */,
+				048F36DF28325536007A5920 /* Samsung.swift */,
+				048F36E128325552007A5920 /* Huawei.swift */,
+				048F36E52832575D007A5920 /* TechincalCharacteristics.swift */,
+				048F36E728325842007A5920 /* ExternalCharacteristics.swift */,
 			);
-			path = "homework 2.5";
+			path = Phone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +138,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048F36E62832575D007A5920 /* TechincalCharacteristics.swift in Sources */,
+				048F36DC283254A8007A5920 /* Phone.swift in Sources */,
+				048F36DE2832551B007A5920 /* iPhone.swift in Sources */,
+				048F36E028325536007A5920 /* Samsung.swift in Sources */,
+				048F36E228325552007A5920 /* Huawei.swift in Sources */,
+				048F36E828325842007A5920 /* ExternalCharacteristics.swift in Sources */,
 				048F36D52832546B007A5920 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

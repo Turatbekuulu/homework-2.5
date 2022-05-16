@@ -1,0 +1,4 @@
+protocol ExternalCharacteristics {
+    
+    func showExternalCharacteristics()
+}

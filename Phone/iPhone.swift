@@ -1,0 +1,3 @@
+class iPhone: Phone {
+    
+}

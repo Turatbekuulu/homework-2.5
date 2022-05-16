@@ -1,0 +1,3 @@
+class Huawei: Phone {
+    
+}
